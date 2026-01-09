@@ -32,7 +32,7 @@
     },
     {
       "content": "testataan",
-      "votes": 0,
+      "votes": 1,
       "id": "yU9wa5c"
     },
     {
@@ -44,6 +44,11 @@
       "content": "created",
       "votes": 1,
       "id": "8yyB2d4"
+    },
+    {
+      "content": "okokok",
+      "votes": 3,
+      "id": "Gbj_yuN"
     }
   ]
 }
