@@ -1,0 +1,73 @@
+# ======================
+# Node / npm
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Build outputs
+# ======================
+dist/
+build/
+out/
+.coverage/
+coverage/
+
+# Backend specific
+backend/dist/
+backend/build/
+backend/node_modules/
+
+# Frontend specific
+frontend/dist/
+frontend/build/
+frontend/.svelte-kit/
+frontend/node_modules/
+
+# ======================
+# Caches
+# ======================
+.cache/
+.tmp/
+.eslintcache
+.parcel-cache/
+.vite/
+.turbo/
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Editor / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Tests / Playwright / Cypress
+# ======================
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/

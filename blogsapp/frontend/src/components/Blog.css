@@ -1,0 +1,57 @@
+.blog {
+  padding: 2rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 32px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.blogDetails {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background-color: rgb(68, 138, 148);
+  color: white;
+}
+
+button:active {
+  background-color: red;
+}
+
+.likebutton {
+  margin-left: 0.5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+.deletebutton {
+  margin-left: 0;
+  width: 100%;
+}
+
+.comments-section {
+  background-color: #222;
+  color: whitesmoke;
+  min-height: 200px;
+  padding: 1rem;
+}
+
+.blog-view {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}

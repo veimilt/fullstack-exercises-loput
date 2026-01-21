@@ -1,0 +1,17 @@
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logged-in {
+  display: flex;
+  gap: 1rem;
+}
